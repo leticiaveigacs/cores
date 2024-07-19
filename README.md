@@ -1,27 +1,25 @@
+# CSS Colour Markers 🎨
 
+This repository contains a simple example of using CSS to create coloured markers. Each marker is represented by a set of HTML elements styled with CSS to create the appearance of a coloured pen marker.
 
-# CSS Color Markers 🎨
+## HTML Code Structure
 
-Este repositório contém um exemplo simples de uso de CSS para criar marcadores coloridos. Cada marcador é representado por um conjunto de elementos HTML estilizados usando CSS para criar uma aparência de marcador de caneta colorido.
+The provided HTML code consists of a basic HTML structure that includes a heading `<h1>` and a `<div>` with the class `.container`, which contains three coloured markers represented by `<div>` elements with the class `.marker`. Each marker is composed of two parts: a "cap" represented by a `<div>` with the class `.cap` and a "sleeve" represented by a `<div>` with the class `.sleeve`.
 
-## Estrutura do Código HTML
+## CSS and Colours
 
-O código HTML fornecido consiste em uma estrutura básica de HTML que inclui um título `<h1>` e uma `<div>` com a classe `.container`, que contém três marcadores coloridos representados por `<div>` com classes `.marker`. Cada marcador é composto por duas partes: uma "tampa" representada por `<div>` com a classe `.cap` e uma "manga" representada por `<div>` com a classe `.sleeve`.
+The styling of the markers is defined in the `styles.css` file, which is linked to the HTML document. In the CSS, classes are used to apply specific styles to each part of the marker, such as colour, size, and shape.
 
-## CSS e Cores
+The colours of the markers are represented by specific CSS classes such as `.red`, `.green`, and `.blue`. Each class defines a specific colour for the corresponding marker, using properties like `background-color` to set the background colour of the cap and sleeve.
 
-O estilo dos marcadores é definido no arquivo `styles.css`, que é vinculado ao documento HTML. No CSS, são utilizadas classes para aplicar estilos específicos a cada parte do marcador, como cor, tamanho e formato.
+The CSS also includes styles to position and style the parts of the marker to create the desired appearance of a coloured pen marker.
 
-As cores dos marcadores são representadas por classes CSS específicas, como `.red`, `.green` e `.blue`. Cada classe define uma cor específica para o marcador correspondente, utilizando propriedades como `background-color` para definir a cor de fundo da tampa e da manga.
+## Demonstration
 
-O CSS também inclui estilos para posicionar e estilizar as partes do marcador para criar a aparência desejada de um marcador de caneta colorido.
+[CSS Colour Markers](https://github.com/leticiaveigacs/cores/issues/1#issue-2294760994)
 
-## Demonstração
+## How to Use 🛠️
 
-[CSS Color Markers](https://github.com/leticiaveigacs/cores/issues/1#issue-2294760994)
+To view the coloured markers, simply open the `index.html` file in a web browser. You will see three different coloured markers: red, green, and blue.
 
-## Como Utilizar 🛠️
-
-Para visualizar os marcadores coloridos, basta abrir o arquivo `index.html` em um navegador da web. Você verá três marcadores coloridos diferentes: vermelho, verde e azul.
-
-Sinta-se à vontade para modificar o código HTML e CSS para experimentar diferentes estilos e cores de marcadores.
+Feel free to modify the HTML and CSS code to experiment with different styles and colours of markers.
