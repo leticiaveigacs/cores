@@ -2,6 +2,9 @@
 
 This repository contains a simple example of using CSS to create coloured markers. Each marker is represented by a set of HTML elements styled with CSS to create the appearance of a coloured pen marker.
 
+[Click](https://leticiaveigacs.github.io/cores/)
+
+
 ## HTML Code Structure
 
 The provided HTML code consists of a basic HTML structure that includes a heading `<h1>` and a `<div>` with the class `.container`, which contains three coloured markers represented by `<div>` elements with the class `.marker`. Each marker is composed of two parts: a "cap" represented by a `<div>` with the class `.cap` and a "sleeve" represented by a `<div>` with the class `.sleeve`.
